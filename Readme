@@ -1,0 +1,40 @@
+# Testes Web com Robot Framework e GitActions
+
+Este repositório contém testes web automatizados usando a biblioteca Browser do Robot Framework e integração contínua com o GitActions.
+
+## Pré-requisitos
+
+Certifique-se de ter os seguintes pré-requisitos instalados em seu ambiente de desenvolvimento:
+
+- Python (versão 3.11)
+- Robot Framework (versão 3.2.2)
+- Biblioteca Browser do Robot Framework (versão 2020)
+- Git 
+
+## Instalação
+
+1. Clone este repositório em sua máquina local:
+
+https://github.com/juarezjunior95/Robot_Playwright
+
+
+
+
+## Integração Contínua com GitActions
+
+Este projeto está configurado para executar automaticamente os testes no GitActions sempre que houver um novo push no repositório. Os resultados dos testes serão exibidos na aba "Actions" do repositório.
+
+## Estrutura do Projeto
+
+Explicação da estrutura de pastas do projeto:
+
+- `tests`: Contém os arquivos de teste em formato .robot.
+- `resources`: Contém recursos utilizados nos testes, como keywords personalizadas.
+- `pages`: Contém os Page Objects utilizados para interagir com as páginas do aplicativo.
+- `reports`: Contém os relatórios de teste gerados após a execução.
+
+## Contribuição
+
+Contribuições são bem-vindas! Se você tiver sugestões, correções de bugs ou melhorias para o projeto, fique à vontade para abrir uma nova issue ou enviar um pull request.
+
+.
